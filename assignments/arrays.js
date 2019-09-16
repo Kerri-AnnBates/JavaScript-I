@@ -79,7 +79,7 @@ let inventory = [
 for(let i = 0; i < inventory.length; i++) {
   if(inventory[i].id === 33) {
     console.log(`Car 33 is a ${inventory[i].car_year} ${inventory[i].car_make} ${inventory[i].car_model}`);
-  }  
+  }
 }
 
 // ==== Challenge 2 ====
@@ -94,10 +94,9 @@ let carModelsSorted = [];
 
 for(let i = 0; i < inventory.length; i++) {
   carModels.push(inventory[i].car_model);
-  carModelsSorted.push(inventory[i].car_model);
 }
 
-carModelsSorted = carModelsSorted.sort();
+carModelsSorted = carModels.sort();
 console.log(carModelsSorted);
 
 // ==== Challenge 4 ====
